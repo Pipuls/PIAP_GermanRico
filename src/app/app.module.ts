@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { AboutComponent } from './components/about/about.component';
+import { WorkXpComponent } from './components/work-xp/work-xp.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavBarComponent,
-    AboutComponent
+    AboutComponent,
+    WorkXpComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+.row {
+    padding: 3rem 5rem;
+}
+div{
+    background-image: linear-gradient(135deg, #475761 10%, #2e5379 100%);
+}
+h2, h3 {
+    display: inline;
+  }
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
