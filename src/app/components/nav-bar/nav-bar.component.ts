@@ -16,8 +16,7 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
   }
   onClick(){
-    this.btnClick.emit();
-      console.log('me estas clikeando wacho')
+          
   }
  
 }
