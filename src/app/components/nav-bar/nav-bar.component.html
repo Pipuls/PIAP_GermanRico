@@ -1,0 +1,51 @@
+<header class="header">
+    <div class="container-bar logo-nav-container">
+        <img src="../../../assets/APLogo.png" id="APLogo"> 
+        <i class="bi bi-list menu h1" id="btnMenu"></i>
+        <nav class="navigation">
+            <ul>
+                <li><a 
+                        href="https://www.linkedin.com/in/arqgermánrico" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    ><img 
+                        id="imgSM" 
+                        src="../../../assets/linkedin.png"
+                    ></a>
+                </li>
+                <li><a 
+                    href="https://instagram.com/germanico_83" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    ><img 
+                    id="imgSM" 
+                    src="../../../assets/instagram.png"
+                    ></a>
+                </li>
+                <li><a 
+                    href="https://twitter.com/ArqGermanRico" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    ><img 
+                    id="imgSM" 
+                    src="../../../assets/twitter.png"
+                    ></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('btnMenu').Onclick(function(){
+                if (this.ul.display == 'none'){
+                    this.ul.display == 'block'
+                } else {
+                    this.ul.display == 'none'
+                }
+
+            })
+        })
+    </script>
+
+</header>
