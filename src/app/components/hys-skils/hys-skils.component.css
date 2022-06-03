@@ -1,0 +1,27 @@
+.row{
+    justify-content: center;    
+}
+h1{
+    text-align: center;
+    color: rgb(128, 172, 238);
+}
+.tarjeta {
+    background-image: linear-gradient(135deg, #475761 10%, #2e5379 100%); 
+    margin: 5rem 5rem;
+    padding: 5rem 5rem;
+}
+label {
+    text-align: center;
+    color: rgb(128, 172, 238);
+    font-weight:bold; 
+    font-size: 1.5vw;
+}
+#circles {
+    padding: 2rem 2rem;
+}
+@media screen and (max-width: 750px){
+
+    label {
+    font-size: 3vw;
+}
+}

@@ -10,10 +10,19 @@ div{
 }
 h2, h3 {
     display: inline;
+    color: #fff;
   }
 h1 {
     text-align: center;
+    color: rgb(128, 172, 238);
+}
+h4{
+    color: rgb(146, 184, 233)
 }
 p {
     text-align: justify;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
 }
