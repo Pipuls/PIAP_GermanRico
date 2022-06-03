@@ -1,0 +1,49 @@
+div{
+    background-image: linear-gradient(135deg, #475761 10%, #2e5379 100%);
+}
+
+.row {
+    padding: 3rem 5rem;
+}
+div{
+    background-image: linear-gradient(135deg, #475761 10%, #2e5379 100%);
+}
+h2, h3 {
+    display: inline;
+    color: #fff;
+  }
+h1 {
+    text-align: center;
+    color: rgb(128, 172, 238);
+}
+h4{
+    color: rgb(146, 184, 233)
+}
+p {
+    text-align: justify;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+.container {
+    width: auto;
+}
+.fsjr-work1, .fsjr-work2 {
+    display:inline-flex;
+    align-items: center;
+}
+.img-proyecto{
+    margin: 2em;
+    color: #fff;
+    border-radius: 2em;
+    box-shadow: 10px 10px 20px #111e2c;
+
+}
+a {
+    align-items: center;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+.container{
+    align-items: center;
+}

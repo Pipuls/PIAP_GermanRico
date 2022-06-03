@@ -1,0 +1,21 @@
+.row {
+    padding: 2rem 5rem;
+}
+.carousel-caption {
+    background-color: #2e5379;
+    opacity: 50%;
+    border-radius: 2em;
+    margin-bottom: 2em;
+}
+h1 {
+    color: rgb(128, 172, 238);
+    text-align: center;
+    line-height: 5rem;
+}
+.carousel-inner {
+    width: 100%;
+}
+.carousel-item {
+    padding: 2rem;
+    background-image: linear-gradient(135deg, #475761 10%, #2e5379 100%);
+}
