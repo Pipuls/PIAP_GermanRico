@@ -1,0 +1,25 @@
+.row{
+    padding: 5rem;
+    padding-bottom: 5rem;
+    margin: 0;
+}
+.bg-dark {
+    --bs-bg-opacity: 0.5;
+    /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+    background-image: linear-gradient(135deg, #2e5379 10%, #475761 100%);
+    box-shadow: 10px 10px 20px #111e2c;
+  }
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card{
+    border-radius: 1.5em;
+}
+.card-body {
+    justify-items: center;
+}
+.btn-primary{
+    background-color: #1982C4;
+    width: 10%;
+}

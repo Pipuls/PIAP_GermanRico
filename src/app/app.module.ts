@@ -15,6 +15,8 @@ import { EducationComponent } from './components/education/education.component';
 import { HysSkilsComponent } from './components/hys-skils/hys-skils.component';
 import { FSjProjectsComponent } from './components/fsj-projects/fsj-projects.component';
 import { ArqPorjectsComponent } from './components/arq-porjects/arq-porjects.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -28,7 +30,9 @@ import { ArqPorjectsComponent } from './components/arq-porjects/arq-porjects.com
     EducationComponent,
     HysSkilsComponent,
     FSjProjectsComponent,
-    ArqPorjectsComponent
+    ArqPorjectsComponent,
+    ContactComponent,
+    FooterComponent
   ],
 
   imports: [
