@@ -1,57 +1,55 @@
 .container-bar{
     background-color: #0d315a;
-    width: 100%;
+    
 }
 #APLogo {
     width: 150px;
     margin-left: 25px;
 }
-.menu {
+.menu-icon {
     display: none;
-
 }
 
 #imgSM {
     width: 35px;
 }
-
 .logo-nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .div a {
     color: white;
     text-decoration: none;
 }
-
 .header{
- padding: 0;
- position: fixed;   
- left: 0;
- top: 0;
- width: 100%;
- z-index: 2;
+  position: fixed;   
+  left: 0;
+  top: 0;
+  width: 102%;
+  z-index: 2;
 }
 .header a {
     color: white;
     text-decoration: none;
+} 
+.btn-light{
+    background-color: rgba(255, 255, 255, 0.726);
+}
+.btn{
+    border-width: medium;
 }
 .navigation {
-    margin: 0;
-    margin-right: 25px;
+    margin-right: 2rem;
     padding: 0;
     list-style: none;
 }
 .navigation ul {
     margin: 0;
-    margin-right: 25px;
     padding: 0;
     list-style: none;
 }
-
 .navigation ul li {
     display: inline-block;
 }
@@ -67,34 +65,47 @@
     background: #1961b36a;
     padding: 0,5rem 1rem ;
 }
+.logo-nav-container a {
+    display: block;
+    transition: all 0.7s linear;
+    border-radius: 1.5rem;
+}
+
+.logo-nav-container a:hover{
+    background: #1961b36a;
+   
+}
 
 @media only screen and (max-width: 650px){
 
-    .menu {
-        margin-right: 25px;
+    .menu-icon {
+        margin-right: 1rem;
         display: block;
+        text-align: center;
         cursor:pointer;
         color:white;
-        margin-right: 50px;
+        
     }
-    .navigation {
+      .navigation {
+        margin-top: 1rem;
         width: 100%;
         padding-bottom: 15px;
     }
+ 
     .navigation ul {
         display: none;
+        align-items: right;
     }
-    .navigation ul.active {
+    .navigation ul.show {
         display: block;
     }
     .navigation ul li {
         display: block;
-    
+        text-align: center;
     }
-    
     .navigation ul li a {
         display: block;
-        padding: 0.75rem 2.5rem;
+        padding: 0.75rem;
         transition: all 0.7s linear;
         border-radius: 25%;
     }
