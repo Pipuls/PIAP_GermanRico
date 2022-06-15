@@ -1,117 +1,24 @@
-.container-bar{
-    background-color: #0d315a;
-    
+.navbar-brand{
+    margin-left: 1rem;
 }
-#APLogo {
-    width: 150px;
-    margin-left: 25px;
+.navbar-toggler {
+    margin-right: 1.5rem;
 }
-.menu-icon {
-    display: none;
-}
-
-#imgSM {
-    width: 35px;
-}
-.logo-nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.div a {
-    color: white;
-    text-decoration: none;
-}
-.header{
-  position: fixed;   
-  left: 0;
-  top: 0;
-  width: 102%;
-  z-index: 2;
-}
-.header a {
-    color: white;
-    text-decoration: none;
-} 
-.btn-light{
-    background-color: rgba(255, 255, 255, 0.726);
-}
-.btn{
-    border-width: medium;
-}
-.navigation {
+.navbar-nav{
     margin-right: 2rem;
-    padding: 0;
-    list-style: none;
-}
-.navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.navigation ul li {
-    display: inline-block;
 }
 
-.navigation ul li a {
-    display: block;
-    padding: 0.5rem 0.5rem;
-    transition: all 0.7s linear;
-    border-radius: 25%;
-}
-
-.navigation ul li a:hover {
-    background: #1961b36a;
-    padding: 0,5rem 1rem ;
-}
-.logo-nav-container a {
-    display: block;
-    transition: all 0.7s linear;
-    border-radius: 1.5rem;
-}
-
-.logo-nav-container a:hover{
-    background: #1961b36a;
-   
-}
-
-@media only screen and (max-width: 650px){
-
-    .menu-icon {
-        margin-right: 1rem;
-        display: block;
-        text-align: center;
-        cursor:pointer;
-        color:white;
-        
-    }
-      .navigation {
-        margin-top: 1rem;
-        width: 100%;
-        padding-bottom: 15px;
-    }
- 
-    .navigation ul {
-        display: none;
-        align-items: right;
-    }
-    .navigation ul.show {
-        display: block;
-    }
-    .navigation ul li {
-        display: block;
-        text-align: center;
-    }
-    .navigation ul li a {
-        display: block;
-        padding: 0.75rem;
-        transition: all 0.7s linear;
-        border-radius: 25%;
-    }
+h3{
+    color: #fff;
+    text-align: left;
+    margin-left: 3rem;
     
-    .navigation ul li a:hover {
-        background: #1961b36a;
-        padding: 0,5rem 1rem ;
-    }
+}
+
+h3:hover {
+    text-shadow: 0 0 10px rgb(62, 221, 208);   
+}
+
+.nav-item{
+align-items: center;
 }
